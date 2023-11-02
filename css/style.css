@@ -5,11 +5,11 @@ body {
 }
 
 .container {
-    max-width: 1240px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 .header {
-    background: black;
+    background-color: black;
     height: 50px;
 }
 .header__content {
@@ -35,7 +35,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: center;
     gap: 20px;
     text-decoration: none;
 }
@@ -82,6 +81,64 @@ body {
     height: 40px;
     flex-shrink: 0;
     background: none;
+}
+.hero {
+    background: url(/images/hero.png) 0 0 / cover;
+    height: 1000px;
+}
+.hero-info {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 300px;
+}
+.hero-pretitle {
+    color: #fff;
+    font-family: Lato;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+}
+.hero-title {
+    color: #fff;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    height: 124px;
+}
+.hero-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    color: #ed4c5c;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 6px;
+    background: #fff;
+    width: 160px;
+    height: 50px;
+}
+
+@media screen and (max-width: 590px) {
+    .hero-pretitle {
+        font-size: 30px;
+    }
+    .hero-title {
+        font-size: 15px;
+    }
 }
 @media screen and (max-width: 700px) {
     .header__nav {
