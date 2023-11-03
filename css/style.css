@@ -280,7 +280,12 @@ body {
 .technology-img-wrap {
     padding-left: 50px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
+    .technology-cards {
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width: 600px) {
     .features-container {
         flex-direction: column-reverse;
         gap: 200px;
