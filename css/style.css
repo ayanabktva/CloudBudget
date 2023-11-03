@@ -280,6 +280,41 @@ body {
 .technology-img-wrap {
     padding-left: 50px;
 }
+.desc {
+    background: #ed4c5c;
+}
+.desc-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.desc-img {
+    padding-top: 15px;
+    height: 100%;
+}
+.desc-title {
+    color: #fff;
+    font-family: Lato;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.desc-text {
+    color: #fff;
+    text-align: justify;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+@media screen and (max-width: 600px) {
+    .desc-info {
+        flex-direction: column-reverse;
+    }
+}
 @media screen and (max-width: 600px) {
     .technology-cards {
         flex-direction: column-reverse;
