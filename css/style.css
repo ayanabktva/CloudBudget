@@ -171,6 +171,24 @@ body {
     font-weight: 400;
     line-height: 140%;
 }
+.freatures {
+    background: #fafafa;
+}
+.features-title {
+    color: #000;
+    text-align: center;
+    font-family: Lato;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.features-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
 .features-info {
     width: 293px;
     height: 198px;
@@ -185,6 +203,48 @@ body {
 .features-info {
     position: absolute;
     bottom: 2px;
+    left: 30px;
+    top: 150px;
+}
+.features-info-title {
+    color: #101010;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.features-text {
+    color: #101010;
+    text-align: center;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.features-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.features-button {
+    color: #ed4c5c;
+    text-align: center;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    border: none;
+    background: #fff;
+}
+@media screen and (max-width: 480px) {
+    .features-container {
+        flex-direction: column-reverse;
+        gap: 200px;
+    }
 }
 @media screen and (max-width: 600px) {
     .heading-info {
