@@ -240,6 +240,46 @@ body {
     border: none;
     background: #fff;
 }
+.technology {
+    padding-top: 200px;
+}
+.technology-pretitle {
+    color: #000;
+    text-align: center;
+    font-family: Lato;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.technology-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    list-style: none;
+}
+.technology-card-title {
+    color: #101010;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.technology-card-text {
+    color: #000;
+    text-align: center;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.technology-img-wrap {
+    padding-left: 50px;
+}
 @media screen and (max-width: 480px) {
     .features-container {
         flex-direction: column-reverse;
